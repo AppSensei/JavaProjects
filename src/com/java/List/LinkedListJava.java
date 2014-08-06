@@ -4,26 +4,25 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class LinkedListJava {
 
     public static void main(String[] args) {
 
 	LinkedList<String> newStudents = new LinkedList<String>();
 
-	for (int i = 0; i < args.length; i++) {
-
-	    Scanner input = new Scanner(System.in);
+	for (int i = 0; i <= 10; i++) {
+	    
 	    System.out.println("What is your name?");
+	    Scanner input = new Scanner(System.in);
 	    String newName = input.nextLine();
-
+	   
 	    newStudents.add(newName);
-	    i++;
-		System.out.println("Display all the students: " + newStudents.size());
+	    System.out.println(newStudents);
 
 	}
-	
+
+
+
 
     }
-
 }

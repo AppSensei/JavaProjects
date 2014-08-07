@@ -5,7 +5,7 @@ public class StackDemoApp {
     public static void main(String[] args) {
 
     }
-    
+    // Stack Implementation
     class Stack<T> {
 	
 	// int[] Stack = new Stack[5];

@@ -12,6 +12,7 @@ public class DistinctWordSet {
 	int count = 0;
 	Set<String> words = new HashSet<String>();
 
+	System.out.println("What is your name? : ");
 	Scanner input = new Scanner(System.in);
 	String str;
 	while (!(str = input.nextLine()).equals("")) {

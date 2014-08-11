@@ -45,7 +45,7 @@ public class FamousQuotes {
 
     public void buildList() {
 
-	listOfFamousQuotes = new ArrayList();
+	listOfFamousQuotes = new ArrayList<String>();
 	listOfFamousQuotes.add("Where there is love there is life - Mahatma Gandhi");
 	listOfFamousQuotes.add("A joke is a very serious thing - Winston Churchill");
 	listOfFamousQuotes.add("In the end, everything is a gag - Charlie Chaplin");

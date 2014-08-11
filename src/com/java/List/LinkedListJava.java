@@ -18,6 +18,7 @@ public class LinkedListJava {
 
 	    newStudents.add(newName);
 	    System.out.println(newStudents);
+	    System.out.println("------------------------------");
 
 	}
 
@@ -29,11 +30,14 @@ public class LinkedListJava {
 	it.add("Elza John");
 	it.add("Jasmine John");
 	it.add("Priya John");
+	
 
 	while (it.hasNext()) {
 	    String string = (String) it.next();
 	    System.out.println(string);
 	}
+	    System.out.println("------------------------------");
+
 
     }
 }

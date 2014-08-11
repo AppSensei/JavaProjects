@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class FamousQuotes {
 
-    private static ArrayList listOfFamousQuotes;
+    private static ArrayList<String> listOfFamousQuotes;
     private static ArrayList<String> listOfFamousQuotesTypeChecked;
 
     public static void main(String[] args) {
